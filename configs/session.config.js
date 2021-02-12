@@ -12,6 +12,7 @@ module.exports = app => {
       secret: process.env.SESS_SECRET,
       resave: true,
       saveUninitialized: false,
+      secret: "holamundo",
       cookie: {
         sameSite: 'none',
         httpOnly: true,
