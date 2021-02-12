@@ -46,7 +46,7 @@ router.post('/signup', (req,res,next) => {
     })
     .then((usuario) => {
       console.log(usuario)
-      res.redirect('/userProfile')
+      res.redirect('/login')
     })
     .catch((error) => {
       // VALIDACIÓN DE CORREO ELECTRÓNICO
